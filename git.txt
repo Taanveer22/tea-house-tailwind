@@ -1,0 +1,12 @@
+echo "# tea-house-tailwind" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Taanveer22/tea-house-tailwind.git
+git push -u origin master
+
+
+git remote add origin https://github.com/Taanveer22/tea-house-tailwind.git
+git branch -M master
+git push -u origin master
