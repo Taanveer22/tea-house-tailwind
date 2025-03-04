@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House Tailwind</title>
+
     <!-- tailwind cdn  -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- font declaretion -->
     <style>
         .manrope-font {
             font-family: "Manrope", sans-serif;
@@ -26,7 +30,7 @@
 
 <body class="manrope-font">
 
-    <!-- banner section start--------------------------------------------------------- -->
+    <!-- banner section start--------------------------------------------------------- -------->
     <header
         class="container mx-auto px-8 md:px-16 flex gap-5 flex-col md:flex-row justify-between items-center mt-12 mb-24">
 
@@ -64,7 +68,8 @@
 
     <main class="container mx-auto px-8 md:px-16">
 
-        <!-- products section start-------------------------------------------------- -->
+        <!-- products section start--------------------------------------------------------- -->
+
         <section class="mb-24">
 
             <h2 class="text-[#1c1c1c] text-4xl text-center font-extrabold mb-4">Our Featured Products</h2>
@@ -112,7 +117,8 @@
         </section>
 
 
-        <!-- flavor section start-------------------------------------------------------- -->
+        <!-- flavor section start--------------------------------------------------------------- -->
+
         <section class="mb-24 grid gap-10 grid-cols-1 lg:grid-cols-2">
 
             <div class="grid gap-5 grid-cols-2 grid-rows-3">
@@ -153,7 +159,8 @@
             </div>
         </section>
 
-        <!-- clients sectin start -->
+        <!-- clients sectin start -------------------------------------------------------------->
+
         <section class="bg-linear-to-r from-orange-500 to-red-500 p-16 mb-24 grid gap-12 grid-cols-1 lg:grid-cols-2">
 
 
@@ -215,10 +222,12 @@
 
         </section>
 
-        <!-- news section start -->
-         <section class="mb-24">
+        <!-- news section start ------------------------------------------------------------>
+        <section class="mb-24">
             <h2 class="text-[#1c1c1c] text-4xl font-extrabold text-center mb-4">News & Events</h2>
-            <p class="text-[#777777] text-base font-medium text-center mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p class="text-[#777777] text-base font-medium text-center mb-8">There are many variations of passages of
+                Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                randomised words which don't look even slightly believable. </p>
 
             <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
@@ -226,28 +235,110 @@
                     <img src="./images/news-1.png" alt="">
                     <p class="tex-sm font-medium text-[#777777]">Feb 05, 2027</p>
                     <h5 class="text-lg font-extrabold text-[#1c1c1c]">Collecting 8 points for discount</h5>
-                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum
+                        available.</p>
                     <button class="text-base font-bold text-[#1c1c1c]">Learn More</button>
                 </div>
                 <div class="space-y-2 border-2 border-gray-300 p-4 rounded-xl">
                     <img src="./images/news-2.png" alt="">
                     <p class="tex-sm font-medium text-[#777777]">Feb 05, 2027</p>
                     <h5 class="text-lg font-extrabold text-[#1c1c1c]">Collecting 8 points for discount</h5>
-                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum
+                        available.</p>
                     <button class="text-base font-bold text-[#1c1c1c]">Learn More</button>
                 </div>
                 <div class="space-y-2 border-2 border-gray-300 p-4 rounded-xl">
                     <img src="./images/news-3.png" alt="">
                     <p class="tex-sm font-medium text-[#777777]">Feb 05, 2027</p>
                     <h5 class="text-lg font-extrabold text-[#1c1c1c]">Collecting 8 points for discount</h5>
-                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="text-sm font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum
+                        available.</p>
                     <button class="text-base font-bold text-[#1c1c1c]">Learn More</button>
                 </div>
 
             </div>
-         </section>
+        </section>
 
     </main>
+
+
+    <!-- footer section start------------------------------------------------------ -->
+
+    <footer class="bg-purple-100 py-16">
+
+        <div class="container mx-auto px-8 md:px-16">
+
+            <div class="flex justify-between items-center mb-16">
+
+                <div class="w-12">
+                    <img class="w-full object-cover" src="./images/cup.png" alt="">
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <p class="text-gray-400 text-sm">Ready to get started?</p>
+                    <button
+                        class="px-4 py-2 bg-linear-to-r from-orange-500 to-red-500 text-white font-bold border-none rounded-lg">Get
+                        Started</button>
+                </div>
+
+            </div>
+
+            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+                <div class="">
+                    <h3 class="text-lg font-bold mb-2">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="text-lg font-bold mb-2">Our Service</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#">Life Insurance</a></li>
+                        <li><a href="#">Car Insurance</a></li>
+                        <li><a href="#">Health Insurance</a></li>
+                        <li><a href="#">House Insurance</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="text-lg font-bold mb-2">Help</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="text-lg font-bold mb-2">Subscribe to our newsletter</h3>
+
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-xs text-gray-400">Email Address</p>
+                        <i class="fa-solid fa-greater-than bg-orange-500 p-2 rounded-full
+                            text-white"></i>
+                    </div>
+
+                    <hr>
+
+                    <div class="flex items-center gap-3 mt-4">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-center text-gray-400 mt-4"><small>© 2027 UIDesign.to - All rights reserved.</small></p>
+
+        </div>
+
+    </footer>
 
 </body>
 
